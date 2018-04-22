@@ -1,0 +1,155 @@
+body{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.box1{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
+	display: block;
+	height: 100%;
+	background-color: black;
+	font-size: 20px;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	text-align: right;							
+}
+ ul li {
+	list-style: none;
+	text-decoration: none;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+li a:hover{
+	background-color: white;
+	color: black;
+}
+.box2{
+	background-image: url(Background.jpg);(alphacoders. 2011)
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+#photo{
+	border-radius: 50%;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+.box4{
+	background-color:rgba(0,0,0,0.5);
+	font-family: 'Roboto', sans-serif;/* taken from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj0suefo8raAhXFgI8KHVmyCB0QjRx6BAgAEAU&url=https%3A%2F%2Fwall.alphacoders.com%2Fbig.php%3Fi%3D85305&psig=AOvVaw0A2r6DMybPOUko0cFt8CiG&ust=15243625429136888*/
+	color: white;
+	font-size: 25px;
+	width: 50%;
+	text-align: center;
+	margin-left: 25%;
+	padding-top: 20px;
+}
+.box5{
+	background-color:  black;
+	color: white;
+	height: 100%;
+	padding: 25px;
+	display: flex;
+}
+.box6{
+	text-align: left;
+	width: 50%;
+}
+.box7{
+
+	padding-top: 4%;
+	width: 50%;
+	text-align: right;
+}
+#photo1{
+	margin: 5%;
+	width: 25%;
+	height:25%
+
+}
+.box8{
+	height: 100%;
+	color: white;
+	width: 50%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color:rgba(0,0,0,0.5);
+	font-size: 25px;
+}
+.box9{
+	background-color:rgba(0,0,0,0.5);
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 25px;
+	width: 40%;
+	margin-bottom: 40px;
+
+	text-align: center;
+
+}
+.box10{
+	width: 100%;
+	background-color:rgba(0,0,0,0.5);
+}
+.box{
+	text-align: right;
+	padding-right: 15px;
+	line-height: 20px;
+	color: black;
+}
+.html{
+	width: 90%;
+	background-color:rgb(34, 116, 247); 
+}
+.css{
+	width: 80%;
+	background-color: rgb(62, 189, 193);
+}
+.javascript{
+	width: 50%;
+	background-color: rgb(255, 2, 229);
+}
+.php{
+	width: 30%;
+	background-color: rgb(255, 1, 44);
+}
+.box11{
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+	border:2px solid #000000;
+
+}
+.box15{
+	padding: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+@media screen and (max-width:600px){
+nav ul{ flex-direction: column; }
+ul li{ width: 96%; margin: 1%;padding: 1%;}
+
+
+
+
+
+
+
+
+}
